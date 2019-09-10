@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import "./App.css";
 import BottomRow from "./BottomRow";
 
+
 function App() {
   //TODO: STEP 2 - Establish your applictaion's state with some useState hooks.  You'll need one for the home score and another for the away score.
 
@@ -13,7 +14,6 @@ function App() {
   function increamentHomeFieldGoalPoint() {
     home(homeScore + 3);
   }
-
   const [awayScore, away] = useState(0);
   function increamentAwayTouchDownPoint() {
     away(awayScore + 7);
@@ -56,3 +56,4 @@ function App() {
 }
 
 export default App;
+
